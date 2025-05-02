@@ -1,0 +1,69 @@
+
+[
+  
+    {
+      "id": 1,
+      "nic":"Waffle",
+      "name": "Waffle with Berries",
+      "price": 59.99,
+      "image": "/assets/one.PNG"
+    },
+    {
+      "id": 2,
+      "nic":"Crème Brûlée",
+      "name": "Vanilla Bean Crème Brûlée",
+      "price": 129.99,
+      "image": "/assets/two.PNG"
+    },
+    {
+      "id": 3,
+      "nic":"Macaron",     
+      "name": "Macaron Mix of Five",
+      "price": 89.99,
+      "image": "/assets/three.PNG"
+    },
+    {
+      "id": 4,
+      "nic":"Tiramisu",
+      "name": "Classic Tiramisu",
+      "price": 499.99,
+      "image": "/assets/four.PNG"
+    },
+    {
+      "id": 5,
+      "nic":"Baklava",
+      "name": "Pistachio Baklava",
+      "price": 39.99,
+      "image": "/assets/five.PNG"
+    },
+    {
+      "id": 6,
+      "nic":"Pie",
+      "name": "Lemon Meringue Pie",
+      "price": 99.99,
+      "image": "/assets/six.PNG"
+    },
+    {
+      "id": 7,
+      "nic":"Cake",
+      "name": "Red Velvet Cake",
+      "price": 29.99,
+      "image": "/assets/seven.PNG"
+    },
+    {
+      "id": 8,
+      "nic":"Brownie",
+      "name": "Salted Caramel Brownie",
+      "price": 699.99,
+      "image": "/assets/eight.PNG"
+    },
+    {
+      "id": 9,
+      "nic":"Panna Cotta",
+      "name": "Vanilla Panna Cotta",
+      "price": 199.99,
+      "image": "/assets/nine.PNG"
+    }
+    
+  ]
+  
