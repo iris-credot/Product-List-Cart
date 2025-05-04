@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
-
-export default function OrderModal({items, resetOrder }) {
-  
+import { useCart } from "./cartContext";
+export default function OrderModal({items }) {
+  const{resetOrder}=useCart();
 
   const total = items.reduce((acc, item) => acc + item.qty * item.price, 0);
 

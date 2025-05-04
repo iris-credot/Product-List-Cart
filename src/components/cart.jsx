@@ -1,8 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark  } from "@fortawesome/free-solid-svg-icons";
-
-export default function Cart({ items, removeFromCart, confirmOrder }) {
+import { useCart } from "./cartContext";
+export default function Cart({ items }) {
+  const {confirmOrder,removeFromCart}=useCart();
   const totalQty = items.reduce((acc, item) => acc + item.qty, 0);
   const total = items.reduce((acc, item) => acc + item.qty * item.price, 0);
  

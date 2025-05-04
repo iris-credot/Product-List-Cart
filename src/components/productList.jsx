@@ -1,8 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { useCart } from "./cartContext";
 
-export default function ProductList({ products, addToCart }) {
+
+export default function ProductList({ products }) {
+  const {addToCart}=useCart();
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full ">
       {products.map((product) => (
